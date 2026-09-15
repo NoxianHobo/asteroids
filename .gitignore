@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
-
+game_stat.jasonl
+game_events.jasonl
 # Virtual environments
 .venv
