@@ -52,9 +52,8 @@ def main():
         for shot in shots:
             for asteroid in asteroids:
                 if shot.collides_with(asteroid):
-                    log_event("asteroid_hit")
-                    print("hit!")
-                    asteroid.kill()
+                    log_event("asteroid_shot")
+                    asteroid.split()
                     shot.kill()
                     break
 
